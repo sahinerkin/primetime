@@ -1,0 +1,234 @@
+* {
+	margin: 0;
+	padding: 0;
+	color: rgba(43, 43, 43, 1);
+}
+
+a {
+    color: rgba(165, 64, 64, 1);
+    text-decoration: none;
+} 
+
+a:hover {
+    text-decoration: underline;
+}
+
+body {
+	background-color: rgba(71, 71, 71, 1);
+    font-family: 'Lato', sans-serif;
+}
+
+header {
+	background-color: rgba(43, 43, 43, 0.95);
+	height: 80px;
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	position: sticky;
+	position: -webkit-sticky;
+	top: 0;
+    z-index: 1;
+}
+
+nav {
+    width: 100%;
+    height: 80px;
+    text-align: center;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    list-style-type: none;
+    
+}
+.left-nav {
+    float: left;
+    margin-left: 5%;
+}
+
+.center-logo {
+    display: inline-block;
+    margin-left: -7%;
+    padding: 0;
+}
+
+.right-nav {
+    float: right;
+    margin-right: 5%;
+}
+
+.left-nav li {
+    margin-right: 10px;
+}
+
+.right-nav li {
+    margin-left: 10px;
+}
+
+nav a {
+    font-family: 'Noto Serif', serif;
+    font-weight: bold;
+	color: rgba(178, 178, 181, 1);
+    font-size: 1.2em;
+	display: inline-block;
+	height: 60px;
+    line-height: 60px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    width: 100%;
+	padding: 0 16px;
+	margin: 10px 2px;
+    border-radius: 10px 0;
+	text-decoration: none;
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    background: linear-gradient(rgba(100, 100, 100, 1) 50%, rgba(71, 71, 71, 1) 50%);
+    border: 2px solid rgba(71, 71, 71, 1);
+}
+
+nav a:hover {
+    background: rgba(71, 71, 71, 1);
+}
+
+.content {
+	margin: 30px 5%;
+    border-radius: 0 0 15px 0;
+    font-size: 1.2em;
+}
+
+.content-title{
+	background-color: rgba(165, 64, 64, 1);
+    border-radius: 15px 0 0 0;
+}
+
+.content-title h2 {
+    font-family: 'Lato', sans-serif;
+	padding: 15px;
+    margin-left: 25px;
+    font-size: 2.5em;
+    color: rgba(43, 43, 43, 1);
+}
+
+.sub-content {
+    background-color: rgba(200, 200, 200, 1);
+    border-radius: 0 0 15px 0;
+	padding: 35px 50px;
+}
+
+summary {
+    width: 100%;
+    height: 32px;
+    border-radius: 8px;
+    background-color: rgba(173, 96, 96, 1);
+    background: linear-gradient(rgba(173, 96, 96, 1) 50%, rgba(165, 64, 64, 1) 50%);
+    color: rgba(244, 244, 248, 1);
+    text-align: center;
+    border: 1px solid rgba(165, 64, 64, 1);
+    vertical-align: middle;
+}
+
+summary:hover {
+    border: 1px solid rgba(244, 244, 248, 1);
+}
+
+details[open] {
+    border-bottom: 2px solid rgba(165, 64, 64, 1); 
+    color: rgba(120, 30, 30, 1);
+    text-align: center;
+    padding-bottom: 8px;
+}
+
+#quotes {
+    margin: 50px 10.75%;
+}
+
+.quote {
+    margin: 25px 0;
+    padding: 20px 30px;
+    background-color: rgba(244, 244, 248, 1);
+    width: 65vw;
+    height: 225px;
+    border-left: 20px solid rgba(64, 110, 142, 1);
+    border-radius: 25px 0;
+    box-sizing: border-box;
+    position: static;
+}
+
+.quote blockquote {
+    color: rgba(78, 184, 208, 1);
+    text-align: center;
+    height: 150px;
+}
+
+.quote blockquote::before {
+    content: open-quote;
+    color: rgba(64, 110, 142, 1);
+    font-weight: bolder;
+}
+
+.quote blockquote::after {
+    content: close-quote;
+     color: rgba(64, 110, 142, 1);
+    font-weight: bolder;
+
+} 
+
+.quote footer {
+    width: calc(65vw-60px);
+    display: block;
+    text-align: right;
+    color: rgba(64, 110, 142, 1);
+    font-weight: bold;
+    font-size: 2em;
+}
+
+#quote1 blockquote {
+    font-size: 1.55em;   
+}
+
+#quote2 blockquote, #quote5 blockquote {
+    font-size: 1.8em;
+}
+
+#quote3 blockquote, #quote4 blockquote {
+    font-size: 2.8em;
+}
+
+#quote5 footer {
+    font-size: 0.92em;
+}
+
+#tv {
+    display: block;
+    margin: 50px auto;
+}
+
+.page-footer {
+    height: 20px;
+    background-color: rgba(100, 100, 100, 1);
+    font-size: 1em;
+    padding: 20px 5%;
+    font-weight: bold;
+}
+
+.page-footer p {
+    position: absolute;
+    left: 5%;
+    text-align: left;
+    color: rgba(200, 200, 200, 1);
+}
+
+.page-footer a {
+    position: absolute;
+    right: 5%;
+    text-align: right;
+    color: rgba(230, 60, 60, 1);
+}
+
+
+/*
+font-family: 'Lato', sans-serif;
+*/
