@@ -332,7 +332,7 @@ def index():
 #####################################################################
 
 # This line makes bottle give nicer error messages
-debug(True)
+debug(False)
 # This line is necessary for running on Heroku
 app = default_app()
 # The below code is necessary for running this bottle app standalone on your computer.
